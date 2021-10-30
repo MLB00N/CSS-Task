@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  height: 100vh;
+}
+.header,
+.image,
+.rezeptlink,
+.search-icon,
+.intro,
+.footer {
+  margin: auto 10%;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+header .col {
+  width: 33%;
+}
+header .col:nth-of-type(2n) {
+  width: 60%;
+  justify-content: space-evenly;
+}
+header .col:nth-of-type(3n) {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+/* .col {
+  display: flex;
+} */
+
+ul.nav_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: #f97d3e;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.headings {
+  margin: 30px 10%;
+  align-items: center;
+}
+.headings h1 {
+  font-size: 60px;
+}
+.headings h2 {
+  font-size: 30px;
+}
+.headings .row {
+  align-items: center;
+}
+.image img {
+  width: 95%;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  background-color: #f97d3e;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+}
+
+figcaption:hover {
+  background-color: #f9ae3e;
+  color: black;
+}
+figure {
+  margin-block-end: 0;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  margin-block-start: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rezeptlink .col {
+  width: 260px;
+  text-align: center;
+}
+.foodpicture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-color {
+  background-color: #f97d3e;
+  margin-top: 3%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.icons {
+  width: 20%;
+}
+.search-icon {
+  display: flex;
+  justify-content: ;
+}
+.div-icon {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.search-field {
+  width: 50%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#suche {
+  width: 80%;
+  height: 100%;
+}
+
+.form-input {
+  width: 80%;
+  height: 30%;
+}
+
+.button {
+  padding: auto 10px;
+  width: 60px;
+  height: 100%;
+}
+.welcome {
+  background-color: #eae4df;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.container-footer {
+  background-color: #ffb800;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
